@@ -8,5 +8,8 @@ namespace EntityFrameworkProjectApp.Domain
 {
     public class Samurai
     {
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+        public List<Quote> Quotes { get; set; } = new List<Quote>();
     }
 }
